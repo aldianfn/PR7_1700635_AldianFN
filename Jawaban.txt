@@ -1,0 +1,14 @@
+1.Left Join :
+Pada left join akan membuat sebuah parameter dari table sebelah kiri, dan jika ada data atau record yang kosong atau tidak berelasi maka akan berisi NULL di sebelah kanan.
+
+Contoh pada soal : Pada tabel lokomotif ditampilkan kd_kereta dan nama, sedangkan pada tabel kursi 		ditampilkan kd_kursi. kd_kereta KRT0003 tidak berelasi dengan tabel kursi, sehingga kd_kursi pada kd_kereta KRT0003 adalah NULL disebelah kanan.
+
+2. Right Join :
+Pada right join akan membuat sebuah parameter pada sebelah kanan jika data pada table terdapat data atau record yang kosong atau tidak berelasi maka akan berisi NULL disebelah kiri.
+
+Contoh pada soal : Pada tabel kursi ditampilkan kd_kursi dan kd_kereta, sedangkan pada tabel gerbong ditampilkan kd_gerbong dan nama_gerbong. kd_gerbong GRB0002 dan GRB0003 tidak berelasi dengan tabel kursi, sehingga kd_kursi dan kd_kereta GRB0002 dan GRB0003 adalah NULL disebelah kiri.
+
+3. Inner Join :
+Sebuah perintah yang digunakan untuk menampilkan sebuah data atau record dengan menghubungkan dua table atau lebih dalam satu perintah, pada perintah inner join data yang akan ditampilkan hanyalah data yang memiliki pasangan saja, maksudnya yaitu data pada table tidak memiliki sebuah kesamaan maka data tidak akan ditampilkan. 
+
+Contoh pada soal : Pada tabel lokomotif ditampilkan kd_kereta dan nama, pada tabel kursi ditampilkan kd_kursi, dan pada tabel gerbong ditampilkan kd_gerbong dan nama_gerbong. Pada tabel gerbong, yang berelasi hanya KRT0002 dan KRT 0003, sedangkan pada kursi, yang berelasi hanya KRT0001, sehingga hasil yang muncul adalah kosong, karena kd_kereta di tabel gerbong dan kursi tidak saling berhubungan.
