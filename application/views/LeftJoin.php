@@ -21,14 +21,14 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="<?php echo site_url('welcome/rightJoin'); ?>">
+              <h3>Right Join</h3>
+            </a>
+          </li>
           <li class="nav-item active">
             <a class="nav-link text-white" href="#">
                 <h3>Left Join</h3>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="<?php echo site_url('welcome/rightJoin'); ?>">
-                <h3>Right Join</h3>
             </a>
           </li>
           <li class="nav-item">
